@@ -1,0 +1,39 @@
+body {
+    background-color: #212121;
+    font-family: 'Oswald';
+
+}
+
+.name {
+    text-align: center;
+    color: crimson;
+}
+
+
+.email {
+    text-align: center;
+    color: crimson;
+}
+
+
+.phonen {
+    text-align: center;
+    color: crimson;
+}
+
+
+
+h1 {
+    text-align: center;
+    color: crimson;
+}
+
+.boxdiagram {
+    text-align: center;
+    color: crimson;
+}
+
+.submitbotton {
+    text-align: center;
+
+}

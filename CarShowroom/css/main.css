@@ -1,0 +1,98 @@
+/*
+Main CSS file for the website.
+Contains all the sections and classes. 
+The basic skeleton follows bootstrap CSS.
+
+Created By: Faisal Ashraf.
+
+*/
+
+/*====== GRADIENT BACKGROUND ========
+ background-color: #3272A6;
+ background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#3272A6), to(#fff));
+ background: -webkit-linear-gradient(top, #fff, #3272A6);
+ background: -moz-linear-gradient(top, #fff, #3272A6);
+ background: -ms-linear-gradient(top, #fff, #3272A6);
+ background: -o-linear-gradient(top, #fff, #3272A6);
+*/
+#header{
+	background-color: rgba(40,57,101,.9);
+	color: white;
+	font: 600 18px/24px 'Open Sans',sans-serif;
+	padding: 20px;
+	padding-top: 20px;
+}
+#section1{
+	background-image: url("../img/bg1.jpg");
+	background-color: rgba(40,57,101,.5);
+	background-position: center;
+	background-size: cover;
+	background-repeat:no-repeat;
+	position: relative;
+	overflow: hidden;	
+}
+.form_design{
+    margin-top: 50px;
+	margin-bottom: 50px;
+	margin-left: 25%;
+	width: 50%;
+}
+.title{
+  width: 100%;
+  padding: 12px 20px;
+  margin-top: 40px;
+  text-align:center;
+  text-transform: Uppercase;
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.show_list_design{
+margin-left:10%;
+margin-right:10%; 
+border-radius:5px;
+text-align:center;
+}
+
+
+
+#footer{
+	background-color: rgba(40,57,101,.9);
+	color: white;
+	font: 600 12px/14px 'Open Sans',sans-serif;
+	padding: 20px;
+	padding-top: 40px;
+}
+
+
+body{
+	margin:0;
+	color:#6a6f8c;
+
+	font:600 16px/18px 'Open Sans',sans-serif;
+}
+*,:after,:before{box-sizing:border-box}
+.clearfix:after,.clearfix:before{content:'';display:table}
+.clearfix:after{clear:both;display:block}
+a{color:inherit;text-decoration:none}
+a:hover{color: #F2674A;text-decoration: none;}
+
+input[type=text], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-left: 40%;
+}

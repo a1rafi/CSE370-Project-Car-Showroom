@@ -1,0 +1,71 @@
+body {
+    color: #FFFFFF ;
+    background-color: #212121;
+    font-size: large;
+    text-align: center;
+    font-family: 'Oswald';
+}
+
+a {
+    color:#FFFFFF;
+    text-decoration: None;
+}
+
+div, input {
+    border-width: 0px;
+}
+
+div {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input {
+    font-size: medium;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+.branding {
+    text-align: center;
+}
+
+.header {
+    text-align: right;
+}
+
+.header-links {
+    text-align: left;
+    float: left;
+}
+.header-search {
+    display: inline-block;
+}
+
+.sidebar-left {
+    background-color: #151515;
+    float: left;
+    text-align: left;
+}
+
+
+.products {
+    display: flex;
+}
+@media (max-width: 975px){
+    .products {
+        display: block;
+    }   
+}
+
+.product {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block;
+}
+
+.product-img {
+    width: 90%;
+}

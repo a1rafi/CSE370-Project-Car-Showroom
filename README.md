@@ -1,3 +1,3 @@
 # CSE370-Project-Car-Showroom
-Here is only codes of backend and frontend uploaded
-The database sql file is not here
+Here are only codes of the backend and frontend uploaded.
+The database SQL file is not here.
